@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <script language="javascript" type="text/javascipt">
-    function triangle(){
-        var a = parseInt(documnent.sides.a.value);
-        var b = parseInt(document.sides.b.value);
-        var c = parseInt(document.sides.c.value);
-        if(var c >= var b + var a || var b >= var c + var a || var a
-        >= var b + var c){
-            alert("This numbers cannot form a triangle")
-        }
-    }
-    </script>
+    <head>
+ 
+</head>
+<body>
+ <script src="js/scripts.js"></script>
+ <p>Please enter your numbers below to see if they could form a triangle.</p>
+ <form action="" name="sides">
+ <p>Enter side A:
+ <input type="text" name="a" /><br />
+ <p>Enter side B:
+ <input type="text" name="b" /><br />
+ <P>Enter side C:
+ <input type="text" name="c" /><br />
+ <br />
+   After you have entered your numbers click the button directly below to see if they could
+ form a triangle.<br />
+   A dialog box will appear and let you know whether your three numbers will be able to form a triangle or not, or 
+   if you are able to form a right triangle, isosceles triangle or scalene. <br />
+   Clear the input fields with the button below and try again if you like.
+ <br />
+ <input type="button" value="Will these numbers form a Triangle? A Right Triangle?An Isosleces triangle?scalene?" 
+ onclick="triangle();" style="width: 350px" /><br />
+ <input type="reset" value="Clear Input Fields" style="width: 350px" /><br />
+ </p> 
+ 
+</body>
+
 </html>
