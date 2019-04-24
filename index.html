@@ -5,6 +5,10 @@
         var a = parseInt(documnent.sides.a.value);
         var b = parseInt(document.sides.b.value);
         var c = parseInt(document.sides.c.value);
+        if(var c >= var b + var a || var b >= var c + var a || var a
+        >= var b + var c){
+            alert("This numbers cannot form a triangle")
+        }
     }
     </script>
 </html>
