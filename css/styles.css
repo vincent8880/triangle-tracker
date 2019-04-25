@@ -1,7 +1,9 @@
 
     .test-box {
         border: 2px solid red;
-        padding: 14px;
+        padding: 10px;
+        margin: 100px;
+        background-color: cyan;
       }
 form{
     display:inline-block;
@@ -11,4 +13,12 @@ form{
 }
 #buty{
     background-color:red;
+}
+h1{
+   
+    font-weight:bold;
+    color:black;
+  }
+body{
+    align:center;
 }
