@@ -10,3 +10,9 @@ message will appear in your page informing you so.
    message will appear informing you so.
    NB:After you input your values press the button directly below for the site to work as indicated above
 ```
+##Development
+Developer:Vincent Ododo
+Email:ododovincent54@gmail.com
+You can contact me for any inquiries
+##License
+MIT
