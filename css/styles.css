@@ -6,4 +6,9 @@
 form{
     display:inline-block;
 }     
-        
+#button{
+    background-color: #59ace0;
+}
+#buty{
+    background-color:red;
+}
