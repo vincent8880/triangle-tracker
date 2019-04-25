@@ -17,6 +17,7 @@ form{
 }
 #buty{
     background-color:red;
+    height:50px;
 }
 h1{
    text-align: center;
@@ -33,4 +34,8 @@ P{
     font-weight: bold;
     color:black; 
 
+}
+li{
+    font-weight:bold;
+    color:black;
 }
